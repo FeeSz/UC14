@@ -54,4 +54,41 @@ Dois botões são incluídos para informações adicionais:
 - **Contato**: Um link para a página de contato.
 
 #### 2.3.2 **Redes Sociais**
-Na parte inferior do rodapé, são exibidos ícones representando várias redes sociais. Cada ícone é uma imagem com uma classe associada (`youtubeimg`, `twitterimg`, `githubimg`, `instaimg`), e os seguintes serviços são
+Na parte inferior do rodapé, são exibidos ícones representando várias redes sociais. Cada ícone é uma imagem com uma classe associada (`youtubeimg`, `twitterimg`, `githubimg`, `instaimg`), e os seguintes serviços são representados:
+- **YouTube**
+- **Twitter (antigo X)**
+- **GitHub**
+- **Instagram**
+
+#### 2.3.3 **Direitos Autorais**
+A seção de direitos autorais exibe a mensagem "© Copyright FESZ 2024", indicando o ano de copyright e o nome da organização responsável.
+
+## Parte 3: Considerações Técnicas
+
+### 3.1 **HTML**
+A estrutura HTML é bastante simples e direta, com as seguintes partes:
+- **Cabeçalho (`<header>`)**: Contém a logo e o menu de navegação.
+- **Conteúdo Principal (`<main>`)**: Exibe as seções de vídeos e informações sobre tecnologias.
+- **Rodapé (`<footer>`)**: Contém links adicionais e ícones de redes sociais.
+
+### 3.2 **CSS**
+O estilo da página é controlado pelo arquivo `css/style.css`. Embora o código CSS não tenha sido fornecido, podemos assumir que ele define o layout e o estilo visual da página, incluindo a formatação de texto, disposição dos cards de vídeo e informações, e o design do cabeçalho e rodapé.
+
+### 3.3 **Responsividade**
+A página é projetada para ser responsiva, o que significa que ela deve se adaptar a diferentes tamanhos de tela (de dispositivos móveis a desktops). Isso é indicado pela utilização da meta tag `viewport` e da provável estilização CSS que ajusta a exibição de elementos em diferentes dispositivos.
+
+### 3.4 **Imagens e Ícones**
+As imagens das redes sociais são armazenadas na pasta `img/`, com os seguintes arquivos:
+- `youtube.png`: Ícone do YouTube.
+- `X.png`: Ícone do Twitter (antigo X).
+- `github.png`: Ícone do GitHub.
+- `instagram.png`: Ícone do Instagram.
+
+## Parte 4: Conclusão
+
+### 4.1 **Usabilidade**
+O site foi desenvolvido com um layout simples e fácil de navegar. As seções são bem definidas e as informações são apresentadas de maneira clara. A inclusão de vídeos do YouTube e informações sobre tecnologias populares torna o site informativo e útil.
+
+### 4.2 **Design**
+O design é focado em clareza e funcionalidade, com uma navegação simples e elementos bem distribuídos na página. A utilização de um cabeçalho fixo e de um rodapé com links para as redes sociais melhora a experiência do usuário.
+
